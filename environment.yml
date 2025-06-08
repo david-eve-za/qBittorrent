@@ -1,7 +1,15 @@
-name: PDFTranslator
+name: qBittorrent
 channels:
     - conda-forge
     - defaults
 dependencies:
     - python=3.10
     - pip
+    - pip:
+        - qbittorrent-api
+        - BeautifulSoup4
+        - lxml
+        - requests
+        - selenium
+        - webdriver-manager
+        - libtorrent
