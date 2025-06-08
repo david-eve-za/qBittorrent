@@ -258,3 +258,17 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+env/
+.env/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+htmlcov/
+*.log
